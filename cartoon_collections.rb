@@ -31,5 +31,6 @@ def find_the_cheese(array_of_strings)
     else 
       false
     end 
-  end 
+  end
+  cheese
 end
