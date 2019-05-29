@@ -27,9 +27,9 @@ def find_the_cheese(array_of_strings)
   cheese = ""
   array_of_strings.each do |item|
     if cheese_types.include?(item) == true 
-      cheese.push(item)
+      cheese = item
     else 
-      nil
+      cheese = nil
     end 
   end
   cheese
