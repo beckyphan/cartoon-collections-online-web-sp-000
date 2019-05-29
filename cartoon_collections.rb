@@ -24,6 +24,12 @@ end
 
 def find_the_cheese(array_of_strings)
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheese = []
   array_of_strings.find do |cheese|
-    cheese in cheese_types
+    if cheesey in cheese_types
+      cheese.push(cheesey)
+    else
+    end 
+  end
+  cheese
 end
