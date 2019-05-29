@@ -11,7 +11,12 @@ def summon_captain_planet(array)
 end
 
 def long_planeteer_calls(array)
-  list = []
+  if yield(array) == true
+    return true 
+  else 
+    return false 
+    
+    
   array.collect do |word|
     word.length > 4
   end
