@@ -15,7 +15,7 @@ def long_planeteer_calls(array)
   array.each do |word|
     list.push(word.length > 4)
   end
-  if list.include?("true")
+  if list.include?(true)
     return true 
   else 
     return false 
