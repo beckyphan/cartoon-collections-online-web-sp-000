@@ -29,6 +29,7 @@ def find_the_cheese(array_of_strings)
     if cheesey in cheese_types
       cheese.push(cheesey)
     else
+      nil
     end 
   end
   cheese
